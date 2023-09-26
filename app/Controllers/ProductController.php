@@ -71,7 +71,7 @@ class ProductController extends BaseController
         echo $product;
     }
 
-    public function chalsim()
+    public function cessangeles()
     {
         $data['product'] = $this->product->findAll();
         return view('products', $data);
